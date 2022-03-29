@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: guestbook-vi
 spec:
-  replicas: 5
+  replicas: 10
   revisionHistoryLimit: 10
   selector:
     matchLabels:
